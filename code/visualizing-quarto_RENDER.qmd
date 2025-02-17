@@ -14,7 +14,7 @@ By the end of this section of the workshop, you will be able to:
 1. use R packages to download LTER data to your own computer  
 2. visualize data as a first step to exploring LTER datasets  
 
-# Dataset
+# Dataset  
 In this section of the workshop, we'll work with the seasonal timeseries data.
 The full citation is: Reed, D. and R. Miller. 2024. SBC LTER: Reef: Seasonal 
 Kelp Forest Community Dynamics: biomass of kelp forest species, ongoing since

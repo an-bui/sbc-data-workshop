@@ -12,7 +12,7 @@ embed-resources: true
 # Learning objectives
 By the end of this section of the workshop, you will be able to:  
 1. use R packages to download LTER data to your own computer  
-2. visualize data as a first step to exploring LTER datasets  
+2. visualize data as a first step to exploring LTER datasets    
 
 # Dataset
 In this section of the workshop, we'll work with the seasonal timeseries data.
