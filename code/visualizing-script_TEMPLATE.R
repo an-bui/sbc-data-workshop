@@ -32,7 +32,7 @@ library(tidyverse)
 library(janitor)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ------------------------ 2. geting data from EDI ------------------------
+# ------------------------ 2. getting data from EDI ------------------------
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # In this section, we'll download the data from EDI and save it as an object
@@ -138,8 +138,14 @@ unlink(infile1)
   # filter to only include red and purple urchins
   
   # filter to only include Naples
-  
 
+
+# Tip: look at your data! By now, you know that you should look at your data 
+# before you start working with it. But for these long chains of functions 
+# piped into each other, it's a good idea to look at the data frame you're 
+# modifying after each function to make sure that it still looks the way you'd 
+# expect. That way, if something goes wrong, you'll now what step to fix!
+  
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ------------------------ 5. visualizing the data ------------------------
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,16 +175,16 @@ unlink(infile1)
 # a. colors (using `scale_color_manual()` or other functions),
 # b. the overall "look" (using `theme_` functions), and/or
 # c. labels (using `labs()`)
-# but again, there is much more that these options!
+# but again, there is much more than these options!
 
 # 1. global call
-ggplot(data = urchins, 
+ggplot(data = urchins, #
        
        # 2. aesthetics
-       aes(x = date, 
-           y = dry_gm2, 
-           color = common_name, 
-           shape = common_name)) + 
+       aes(x = date, #
+           y = dry_gm2, #
+           color = common_name, #
+           shape = common_name)) + #
   
   # 3. geometries
   # 
