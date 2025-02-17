@@ -180,7 +180,7 @@ ggplot(data = urchins, # specifying data
            color = common_name, # what we want the colors to be
            shape = common_name)) + 
   
-  # 2. geometries
+  # 3. geometries
   # making points
   geom_point(size = 2) +
   # making lines to connect the points
