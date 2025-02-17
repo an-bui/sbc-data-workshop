@@ -4,4 +4,4 @@
 
 This is part 1 of the SBC LTER's data workshop, led by Li Kui, Kyle Emery, and me (An Bui).  
 
-Please find the rendered Quarto doc for this workshop [here](https://an-bui.github.io/sbc-data-workshop/code/visualizing-quarto_RENDER.html)!
+Please find the rendered Quarto doc for this workshop [here](https://an-bui.github.io/sbc-data-workshop/render/visualizing-quarto_RENDER.html)!
