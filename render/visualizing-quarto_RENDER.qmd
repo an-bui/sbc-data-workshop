@@ -31,6 +31,8 @@ data. See https://www.tidyverse.org/ for details on what packages are in the
 tidyverse!
 
 ```{r}
+#| message: false
+
 library(tidyverse) 
 ```
 
@@ -39,6 +41,8 @@ clean up your data. See the website for more details:
 https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html
 
 ```{r}
+#| message: false
+
 library(janitor)
 ```
 
