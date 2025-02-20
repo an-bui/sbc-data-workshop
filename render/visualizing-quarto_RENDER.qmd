@@ -99,6 +99,11 @@ dt1 <-read.csv(infile1,header=F
 unlink(infile1)
 ```
 
+::: {.callout-warning}
+## Updates to EDI
+As of this workshop (20 February 2025), this code to load in the data still works. However, EDI will soon switch to an API-based system, which will require all users to log in and authenticate themselves before accessing the data. Look out for changes to EDI in the future!
+:::
+
 # 3. getting a first look at the data
 
 The first thing to do when working with data is to look at it. This is an underappreciated but crucial step! By looking at the data, you'll have a sense of what the columns and rows are so you can then build your intuition for how to work with it down the line.  
